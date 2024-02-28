@@ -1,4 +1,4 @@
 //your JS code here. If required.
-var url="wfgsrydyherhyerthuehususwuhjwhujwshtfrw"
+const url = window.location.protocol; 
 let length=url.length;
 alert(`The length of the URL is: ${length}`)
