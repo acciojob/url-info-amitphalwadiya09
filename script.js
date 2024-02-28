@@ -1,4 +1,4 @@
 //your JS code here. If required.
-const url = window.location.protocol; 
+const url = window.location.href;
 let length=url.length;
-alert(`The length of the URL is: ${length-1}`)
+alert(`The length of the URL is: ${length}`)
