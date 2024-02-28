@@ -1,6 +1,11 @@
 //your JS code here. If required.
-const url=window.loctaion.href;
+cy.visit(baseUrl).then(() => {
+    // Get the current URL using cy.url()
+    cy.url().then(currentURL => {
+        // Calculate the length of the URL
+        const urlLength = currentURL.length;
 
-let length=url.length;
-
-alert(`The length of the URL is: ${length}`)
+        // Display the length of the URL using alert
+        alert(`The length of the URL is: ${urlLength}`);
+    });
+});
